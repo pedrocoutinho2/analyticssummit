@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'GothamBoldItalic';
+   font-display: swap;
+   src: url('GothamBoldItalic/font.ttf');
+}
+@font-face {
+   font-family: 'GothamBook';
+   font-display: swap;
+   src: url('GothamBook/font.ttf');
+}
