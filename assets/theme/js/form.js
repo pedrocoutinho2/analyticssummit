@@ -533,4 +533,3 @@
 		        window.addEventListener("load", dinForms.onLoad);
 		    }
 		}
-		</script>
