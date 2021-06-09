@@ -11,6 +11,7 @@
   
   
   <title>Analytics Summit</title>
+  <link rel="icon" type="image/png" href="assets/images/favicon36.png" />
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
@@ -23,7 +24,6 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/form.css">
-  <script type="text/javascript" src="assets/theme/js/form.js"></script>
   <link href="assets/fonts/style.css" rel="stylesheet">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
@@ -69,7 +69,7 @@
         font-weight: normal;
       }
 
-      .bignumbers h4 {
+      .bignumbers .count {
         font-family: Helvetica; 
         font-size: 3.2rem;
         color: #1F1BD5;
@@ -119,11 +119,20 @@
         color: #0A0927;
     }
 
+    form.formIntegration2.style1 input[type="text"], form.formIntegration2.style1.style2 input[type="text"] {
+        font-family: Helvetica;
+        font-size: 16px;
+        padding: 10px 8px;
+        border-radius: 0px;
+        border:  1px solid #0A0927;
+    }
+
     form.formIntegration2.style1 input[type="submit"] {
         background-color: #FF8402;
         text-transform: uppercase;
         font-style: italic;
         width: 100%;
+        border-radius: 0px;
     }
 
     .form4 form {
@@ -165,6 +174,88 @@
 
     select {
         font-family: Helvetica;
+    }
+
+    .cid-s48OLK6784 .nav-dropdown .link {
+        padding: 0 0.1em;
+        margin: .667em 1em !important;
+        font-size: 0.8rem !important;
+    }
+
+    ul.nav-dropdown li:last-child {
+        background-color: #FF8402 !important;
+        padding: 0.1em !important;
+    }
+
+    ul.nav-dropdown li:last-child a {
+        font-weight: 700 !important;
+    }
+
+    .cid-szKZHt2SY0 .panel-body, .cid-szKZHt2SY0 .card-header {
+        padding: 1rem;
+    }
+
+    .navbar-toggler {
+        color: #fff;
+    }
+
+    .bignumbers {
+        padding: 0 10rem
+    }
+
+    #programacao .col-12 {
+        padding: 4rem 0; 
+    }
+
+    .mbr-arrow-up {
+        bottom: 85px;
+    }
+
+    #evento h1 {
+        font-weight: 700;
+        font-size: 4.4rem;
+    }
+
+    #evento h2 {
+        font-weight: 700;
+        font-size: 2.4rem;
+    }
+
+    @media screen and (max-width: 620px) {
+        .cid-szKBxJNhfm {
+            padding-top:  4rem;
+        }
+
+        .cid-s48OLK6784 .navbar .navbar-logo img, .cid-s48OLK6784 .navbar.navbar-short .navbar-logo img {
+            height: 2rem !important
+        }
+
+        .bignumbers {
+            padding: 0rem
+        }
+
+        #programacao .col-12 {
+            padding: 2rem 1rem;
+        }
+
+        .mbr-arrow-up {
+            left: 70%;
+        }
+
+        #evento h1 {
+            font-weight: 700;
+            font-size: 2.4rem;
+        }
+
+        #evento h2 {
+            font-weight: 700;
+            font-size: 1.4rem;
+        }
+
+        .mantra {
+            padding: 2rem 0;
+        }
+
     }
 
   </style>
@@ -210,6 +301,9 @@
                     <li class="nav-item">
                         <a class="nav-link link text-white display-4" href="#faq">FAQ</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link link text-white display-4" href="#inscricao">Quero me inscrever</a>
+                    </li>
                 </ul>
                 
             </div>
@@ -222,18 +316,18 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-8 col-lg-8">
+            <div class="col-12 col-lg-8 sm-12">
                 <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1" style="margin-top: 4rem;"><strong>O maior</strong><br><strong><span class="lightblue">evento</span> de</strong><br><strong>analytics</strong><br><strong>do <span class="yellow">brasil</span></strong></h1>
             </div>
 
-            <div class="col-4 col-lg-4">
+            <div class="col-12 col-lg-4 sm-12">
                 <form version="2.0" class="formIntegration formIntegration2 style1" accept-charset="UTF-8" method="post" onsubmit="return dinForms.ValidateForm(this)" action="https://receiver.emkt.dinamize.com/in/327500/1/1825f/0" target="DinamizeIframeFormIntegration">
                     <input type="hidden" name="update_mode" value="AS"/>
                     <input type="hidden" name="form-code" value="42"/>
                     <input type="hidden" name="isMsg" value="true"/><div class="DinamizeDivCaptchaMessage">Captcha obrigatório</div><div class="DinamizeDivMessageAlert"></div>
-                    <h3 class="mbr-section-title mb-4 display-6"> 
+                    <h4 class="mbr-section-title mb-4 display-6"> 
                                 <strong>Inscreva-se agora<br /><span class="yellow">gratuitamente</span></strong>
-                            </h3>
+                            </h4>
                         <div class="DinamizeDivMessageSuccess"><h4><span style="font-family:verdana,geneva,sans-serif;">Seu e-mail foi cadastrado com sucesso!</span><br />&nbsp;</h4><p><span style="font-family:verdana,geneva,sans-serif;">Fique atento ao seu email, pois enviaremos todas as informa&ccedil;&otilde;es do evento por l&aacute;!<br /><br />Nos vemos em Julho!</span><br />Abra&ccedil;os,<br />M&eacute;tricas Boss</p></div>
                         <div class="DinamizeDivMessageError"></div>
                         <input type="hidden" name="text-confirmation" value="PGg0PjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTp2ZXJkYW5hLGdlbmV2YSxzYW5zLXNlcmlmOyI+U2V1IGUtbWFpbCBmb2kgY2FkYXN0cmFkbyBjb20gc3VjZXNzbyE8L3NwYW4+PGJyIC8+Jm5ic3A7PC9oND48cD48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6dmVyZGFuYSxnZW5ldmEsc2Fucy1zZXJpZjsiPkZpcXVlIGF0ZW50byBhbyBzZXUgZW1haWwsIHBvaXMgZW52aWFyZW1vcyB0b2RhcyBhcyBpbmZvcm1hJmNjZWRpbDsmb3RpbGRlO2VzIGRvIGV2ZW50byBwb3IgbCZhYWN1dGU7ITxiciAvPjxiciAvPk5vcyB2ZW1vcyBlbSBKdWxobyE8L3NwYW4+PGJyIC8+QWJyYSZjY2VkaWw7b3MsPGJyIC8+TSZlYWN1dGU7dHJpY2FzIEJvc3M8L3A+"/>
@@ -259,26 +353,25 @@
     </div>
 </section>
 
-<section class="countdown3 cid-szKZ7hRImI" id="countdown3-v" style="background-color:#F1CD2E">
-    
+<section class="countdown3 cid-szKZ7hRImI" id="countdown3-v" style="background-color:#F1CD2E; padding: 0px;">
     
     <div class="container-fluid">
-        <div class="row justify-content-center content-wrapper bignumbers" style="padding: 0 10rem;">       
+        <div class="row justify-content-center content-wrapper bignumbers">       
                 <div class="align-center col-sm-6 col-lg-3" style="display: inline-block;">
-                    <h4>4</h4>
-                    <p>dias</p>
+                    <div class="count" style="display: inline-block;">100</div><em style="font-family: helvetica; font-style: italic; font-weight: 700; display: inline-block; font-size: 1.4rem; color: #1F1BD5;">%</em>
+                    <p>inédito</p>
                 </div>
                 <div class="align-center col-sm-6 col-lg-3" style="display: inline-block;">
-                    <h4>20</h4>
+                    <div class="count">24</div>
                     <p>palestras</p>
                 </div>
                 <div class="align-center col-sm-6 col-lg-3" style="display: inline-block;">
-                    <h4>100</h4>
-                    <p>horas</p>
+                    <div class="count">4</div>
+                    <p>dias</p>
                 </div>
                 <div class="align-center col-sm-6 col-lg-3" style="display: inline-block;">
-                    <h4>4</h4>
-                    <p>dias</p>
+                    <div class="count">24</div>
+                    <p>horas</p>
                 </div>
                 
             </div>
@@ -298,10 +391,12 @@
                 </div>
                 <div class="col-12 col-lg">
                     <div class="text-wrapper">
-                        <h6 class="card-title mbr-fonts-style display-2">
-                            <strong class="lightblue" style="font-size: 2.4rem;">Faça parte da</strong><br /><strong style="font-size: 4.4rem;" class="darkblue">Revolução</strong><strong><br></strong></h6>
+                        <h2 class="card-title mbr-fonts-style display-4">
+                            <strong class="lightblue">Faça parte da</strong></h2>
+                            <br />
+                            <h1 class="card-title mbr-fonts-style display-1"><strong class="darkblue">Revolução</strong><strong><br></strong></h1>
                         <p class="mbr-text mbr-fonts-style mb-4 display-7" style="font-size: 1.2rem;">Reunimos os melhores especialistas do mercado em uma jornada repleta de dicas e insights, proporcionando uma imersão total no incrível mundo do web analytics, indo desde seus fundamentos até as estratégias mais avançadas.<br></p>
-                        <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="https://mobiri.se">Quero fazer parte da revolução</a></div>
+                        <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4" href="#inscricao">Quero fazer parte da revolução</a></div>
                     </div>
                 </div>
             </div>
@@ -313,7 +408,7 @@
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12" style="padding: 4rem 0; background-image: url(assets/images/dia1-min.png); background-size: contain; background-repeat: no-repeat; background-position: 0px -30px;">
+            <div class="col-12" style="background-image: url(assets/images/dia1-min.png); background-size: contain; background-repeat: no-repeat; background-position: 0px -30px;">
                 <p class="mbr-section-subtitle mbr-fonts-style align-center mb-5 display-7" style="margin-bottom: 0rem !important;"><em>Dia 1 - 19/07</em></p>
                 <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>TENDÊNCIAS E TESTE A/B</strong></h3>
             </div>
@@ -336,12 +431,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/marina-braune-0966a84b/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/marinabraune/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -372,12 +467,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/lgodoy/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/lucasgodoy/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -408,15 +503,15 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/rodrigo-marchiori-carvalho-34305437/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                            <!-- div class="soc-item">
+                                <a href="https://instagram.com/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
-                            </div>
+                            </div -->
                             
                             
                         </div>
@@ -444,12 +539,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/estevesgea/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/estevesgea/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -480,12 +575,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/gabriel-mineiro/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/gabrielcmineiro/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -516,15 +611,15 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/kleberforato/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <!-- a href="https://instagram.com/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
-                            </div>
+                            </div -->
                             
                             
                         </div>
@@ -543,7 +638,7 @@
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12" style="padding: 4rem 0; background-image: url(assets/images/dia2-min.png); background-size: contain; background-repeat: no-repeat; background-position: 0px -30px;">
+            <div class="col-12" style="background-image: url(assets/images/dia2-min.png); background-size: contain; background-repeat: no-repeat; background-position: 0px -30px;">
                 <p class="mbr-section-subtitle mbr-fonts-style align-center mb-5 display-7" style="margin-bottom: 0rem !important;"><em>Dia 2 - 20/07</em></p>
                 <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Product Analytics e Mensuração em Apps</strong></h3>
             </div>
@@ -567,12 +662,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/bernarddeluna/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/bernarddeluna/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -587,7 +682,7 @@
                         <div class="col-sm-8 col-lg-4">
                 <div class="card-wrap">
                     <div class="image-wrap">
-                        <img src="assets/images/palestrantes/analytics-summit-palestrantes-Gustavo-Esteves-min.png"><!-- ALTERAR -->
+                        <img src="assets/images/palestrantes/palestranteaconfirmar@2x.png"><!-- ALTERAR -->
                     </div>
                     <div class="content-wrap">
                         <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
@@ -597,10 +692,10 @@
                             10h - 11h
                         </p>
                         <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
-                            <strong>Patrocinador</strong>
+                            <strong>Patrocinador a confirmar</strong>
                         </h6>
                         
-                        <div class="social-row display-7">
+                        <!-- div class="social-row display-7">
                             
                             <div class="soc-item">
                                 <a href="https://twitter.com/mobirise" target="_blank">
@@ -614,7 +709,7 @@
                             </div>
                             
                             
-                        </div>
+                        </div -->
                         
                     </div>
                 </div>
@@ -639,15 +734,15 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/dias-juliana/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <!-- a href="https://instagram.com/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
-                            </div>
+                            </div -->
                             
                             
                         </div>
@@ -675,12 +770,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/huxleydias/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/huxleydias/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -711,15 +806,15 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/caiotramontina/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
-                            <div class="soc-item">
+                            <!-- div class="soc-item">
                                 <a href="https://instagram.com/mobirise" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
-                            </div>
+                            </div -->
                             
                             
                         </div>
@@ -731,7 +826,7 @@
             <div class="col-sm-8 col-lg-4">
                 <div class="card-wrap">
                     <div class="image-wrap">
-                        <img src="assets/images/palestrantes/analytics-summit-palestrantes-Gustavo-Esteves-min.png"> <!-- ALTERAR -->
+                        <img src="assets/images/palestrantes/analytics-summit-Palestrantes-Thiago-Barra.jpeg"> <!-- ALTERAR -->
                     </div>
                     <div class="content-wrap">
                         <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
@@ -747,12 +842,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/tiagovbarra/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/tiagovbarra/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -773,7 +868,7 @@
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12" style="padding: 4rem 0; background-image: url(assets/images/dia3-min.png); background-size: contain; background-repeat: no-repeat; background-position: 0px -30px;">
+            <div class="col-12" style="background-image: url(assets/images/dia3-min.png); background-size: contain; background-repeat: no-repeat; background-position: 0px -30px;">
                 <p class="mbr-section-subtitle mbr-fonts-style align-center mb-5 display-7" style="margin-bottom: 0rem !important;"><em>Dia 3 - 21/07</em></p>
                 <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Dataviz e Marketing Digital</strong></h3>
             </div>
@@ -796,12 +891,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/mfneurauter/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/mafentr/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -816,7 +911,7 @@
             <div class="col-sm-8 col-lg-4">
                 <div class="card-wrap">
                     <div class="image-wrap">
-                        <img src="assets/images/palestrantes/analytics-summit-palestrantes-Gustavo-Esteves-min.png"> <!-- ALTERAR -->
+                        <img src="assets/images/palestrantes/palestranteaconfirmar@2x.png"> <!-- ALTERAR -->
                     </div>
                     <div class="content-wrap">
                         <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
@@ -826,10 +921,10 @@
                             10h - 11h
                         </p>
                         <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
-                            <strong>Apoiador</strong>
+                            <strong>Apoiador a confirmar</strong>
                         </h6>
                         
-                        <div class="social-row display-7">
+                        <!-- div class="social-row display-7">
                             
                             <div class="soc-item">
                                 <a href="https://twitter.com/mobirise" target="_blank">
@@ -843,7 +938,7 @@
                             </div>
                             
                             
-                        </div>
+                        </div -->
                         
                     </div>
                 </div>
@@ -868,15 +963,15 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/ingrid-silva-pino-64206468/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                            <!-- div class="soc-item">
+                                <a href="https://instagram.com/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
-                            </div>
+                            </div -->
                             
                             
                         </div>
@@ -904,12 +999,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/rafaelrez/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/rafael.rez/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -940,12 +1035,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/matheusrodrigues17/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://instagram.com/matheuss17rs" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -976,15 +1071,15 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/adonisbatista/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                            <!-- div class="soc-item">
+                                <a href="https://instagram.com/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
-                            </div>
+                            </div -->
                             
                             
                         </div>
@@ -1002,7 +1097,7 @@
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12" style="padding: 4rem 0; background-image: url(assets/images/dia4-min.png); background-size: contain; background-repeat: no-repeat; background-position: 0px -30px;">
+            <div class="col-12" style="background-image: url(assets/images/dia4-min.png); background-size: contain; background-repeat: no-repeat; background-position: 0px -30px;">
                 <p class="mbr-section-subtitle mbr-fonts-style align-center mb-5 display-7" style="margin-bottom: 0rem !important;"><em>Dia 4 - 22/07</em></p>
                 <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Ferramentas</strong></h3>
             </div>
@@ -1026,15 +1121,15 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/marthasiqueira/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
-                            <div class="soc-item">
+                            <!-- div class="soc-item">
                                 <a href="https://instagram.com/mobirise" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
-                            </div>
+                            </div -->
                             
                             
                         </div>
@@ -1062,12 +1157,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/phmello/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/phillipfmello/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -1098,15 +1193,15 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/jacquelineglat/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
-                            <div class="soc-item">
+                            <!-- div class="soc-item">
                                 <a href="https://instagram.com/mobirise" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
-                            </div>
+                            </div -->
                             
                             
                         </div>
@@ -1134,12 +1229,12 @@
                         <div class="social-row display-7">
                             
                             <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                                <a href="https://www.linkedin.com/in/wallanmachado/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://www.instagram.com/machadowallan/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
                             </div>
@@ -1154,7 +1249,7 @@
             <div class="col-sm-8 col-lg-4">
                 <div class="card-wrap">
                     <div class="image-wrap">
-                        <img src="assets/images/palestrantes/analytics-summit-palestrantes-Gustavo-Esteves-min.png"> <!-- ALTERAR -->
+                        <img src="assets/images/palestrantes/palestranteaconfirmar@2x.png"> <!-- ALTERAR -->
                     </div>
                     <div class="content-wrap">
                         <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
@@ -1164,21 +1259,21 @@
                             20h - 21h
                         </p>
                         <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
-                            <strong>Diogo Souza</strong>
+                            <strong>Palestrante a confirmar</strong>
                         </h6>
                         
                         <div class="social-row display-7">
                             
-                            <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
+                            <!-- div class="soc-item">
+                                <a href="https://linkedin.com/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-linkedin"></span>
                                 </a>
                             </div>
                             <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
+                                <a href="https://instagram.com/" target="_blank">
                                     <span class="mbr-iconfont socicon socicon-instagram"></span>
                                 </a>
-                            </div>
+                            </div -->
                             
                             
                         </div>
@@ -1232,37 +1327,37 @@
 
     <div class="container">
         <div class="row content-wrapper justify-content-center">
-            <div class="col-8 col-lg-8">
+            <div class="col-12 col-lg-8 col-md-8 col-sm-12 mantra">
                 <div class="container">
-                    <h3 class="display-4" style="color: #fff;">Vamos espalhar o nosso mantra:</p>
-                    <img src="assets/images/analytics-summit-achismos+mais-dados.png" style="width: 70%;" alt="-Achismo +Dados">
-                    
+                    <h3 class="display-4" style="color: #fff;">Vamos espalhar o nosso mantra:<p class=""></p>
+                    <img src="assets/images/analytics-summit-achismos+mais-dados.png" style="width: 70%;" alt="-Achismo +Dados" class="">
+                    </h3>
                 </div>
             </div>
 
-            <div class="col-4 col-lg-4 mbr-form" data-form-type="formoid">
+            <div class="col-12 col-lg-4 col-md-4 col-sm-12 mbr-form" data-form-type="formoid">
                 <form version="2.0" class="formIntegration formIntegration2 style1 style2" accept-charset="UTF-8" method="post" onsubmit="return dinForms.ValidateForm(this)" action="https://receiver.emkt.dinamize.com/in/327500/1/1825f/0" target="DinamizeIframeFormIntegration">
-                    <input type="hidden" name="update_mode" value="AS"/>
-                    <input type="hidden" name="form-code" value="42"/>
-                    <input type="hidden" name="isMsg" value="true"/><div class="DinamizeDivCaptchaMessage">Captcha obrigatório</div><div class="DinamizeDivMessageAlert"></div>
+                    <input type="hidden" name="update_mode" value="AS" class="animate__animated animate__delay-1s animate__fadeInUp">
+                    <input type="hidden" name="form-code" value="42" class="animate__animated animate__delay-1s animate__fadeInUp">
+                    <input type="hidden" name="isMsg" value="true" class="animate__animated animate__delay-1s animate__fadeInUp"><div class="DinamizeDivCaptchaMessage">Captcha obrigatório</div><div class="DinamizeDivMessageAlert"></div>
                     <h3 class="mbr-section-title mb-4 display-5"> 
-                                <strong class="darkblue">Inscreva-se agora<br /><span class="yellow">gratuitamente</span></strong>
+                                <strong class="darkblue">Inscreva-se agora<br><span class="yellow">gratuitamente</span></strong>
                             </h3>
-                        <div class="DinamizeDivMessageSuccess"><h4><span style="font-family:verdana,geneva,sans-serif;">Seu e-mail foi cadastrado com sucesso!</span><br />&nbsp;</h4><p><span style="font-family:verdana,geneva,sans-serif;">Fique atento ao seu email, pois enviaremos todas as informa&ccedil;&otilde;es do evento por l&aacute;!<br /><br />Nos vemos em Julho!</span><br />Abra&ccedil;os,<br />M&eacute;tricas Boss</p></div>
+                        <div class="DinamizeDivMessageSuccess"><h4 class="animate__animated animate__delay-1s animate__fadeInUp"><span style="font-family:verdana,geneva,sans-serif;">Seu e-mail foi cadastrado com sucesso!</span><br>&nbsp;</h4><p class="animate__animated animate__delay-1s animate__fadeInUp"><span style="font-family:verdana,geneva,sans-serif;">Fique atento ao seu email, pois enviaremos todas as informações do evento por lá!<br><br>Nos vemos em Julho!</span><br>Abraços,<br>Métricas Boss</p></div>
                         <div class="DinamizeDivMessageError"></div>
-                        <input type="hidden" name="text-confirmation" value="PGg0PjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTp2ZXJkYW5hLGdlbmV2YSxzYW5zLXNlcmlmOyI+U2V1IGUtbWFpbCBmb2kgY2FkYXN0cmFkbyBjb20gc3VjZXNzbyE8L3NwYW4+PGJyIC8+Jm5ic3A7PC9oND48cD48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6dmVyZGFuYSxnZW5ldmEsc2Fucy1zZXJpZjsiPkZpcXVlIGF0ZW50byBhbyBzZXUgZW1haWwsIHBvaXMgZW52aWFyZW1vcyB0b2RhcyBhcyBpbmZvcm1hJmNjZWRpbDsmb3RpbGRlO2VzIGRvIGV2ZW50byBwb3IgbCZhYWN1dGU7ITxiciAvPjxiciAvPk5vcyB2ZW1vcyBlbSBKdWxobyE8L3NwYW4+PGJyIC8+QWJyYSZjY2VkaWw7b3MsPGJyIC8+TSZlYWN1dGU7dHJpY2FzIEJvc3M8L3A+"/>
-                        <input type="hidden" name="text-error" value=""/>
-                        <input type="hidden" name="text-alert" value=""/><input type="hidden" name="cmp4" value="Analytics Summit - Leads|MB PRIME - Leads"/><input type="hidden" name="phase-change" value="on"/><div class=""><div class="block"><div class="vertical divlabel"><label>E-mail</label></div><div class="vertical divinput"><input type="text" name="cmp1"  placeholder="" format=""  class="type_EMAIL field-required " maxlength="80" />
+                        <input type="hidden" name="text-confirmation" value="PGg0PjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTp2ZXJkYW5hLGdlbmV2YSxzYW5zLXNlcmlmOyI+U2V1IGUtbWFpbCBmb2kgY2FkYXN0cmFkbyBjb20gc3VjZXNzbyE8L3NwYW4+PGJyIC8+Jm5ic3A7PC9oND48cD48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6dmVyZGFuYSxnZW5ldmEsc2Fucy1zZXJpZjsiPkZpcXVlIGF0ZW50byBhbyBzZXUgZW1haWwsIHBvaXMgZW52aWFyZW1vcyB0b2RhcyBhcyBpbmZvcm1hJmNjZWRpbDsmb3RpbGRlO2VzIGRvIGV2ZW50byBwb3IgbCZhYWN1dGU7ITxiciAvPjxiciAvPk5vcyB2ZW1vcyBlbSBKdWxobyE8L3NwYW4+PGJyIC8+QWJyYSZjY2VkaWw7b3MsPGJyIC8+TSZlYWN1dGU7dHJpY2FzIEJvc3M8L3A+" class="animate__animated animate__delay-1s animate__fadeInUp">
+                        <input type="hidden" name="text-error" value="" class="animate__animated animate__delay-1s animate__fadeInUp">
+                        <input type="hidden" name="text-alert" value="" class="animate__animated animate__delay-1s animate__fadeInUp"><input type="hidden" name="cmp4" value="Analytics Summit - Leads|MB PRIME - Leads" class="animate__animated animate__delay-1s animate__fadeInUp"><input type="hidden" name="phase-change" value="on" class="animate__animated animate__delay-1s animate__fadeInUp"><div class=""><div class="block"><div class="vertical divlabel"><label class="">E-mail</label></div><div class="vertical divinput"><input type="text" name="cmp1" placeholder="" format="" class="type_EMAIL field-required" maxlength="80">
                                             </div>
-                            </div><div class="block"><div class="vertical divlabel"><label>Trabalha com Marketing Digital?</label></div><div class="vertical divinput"><select name="cmp5" class="type_LVU ">
+                            </div><div class="block"><div class="vertical divlabel"><label class="">Trabalha com Marketing Digital?</label></div><div class="vertical divinput"><select name="cmp5" class="type_LVU">
                                                 <option value="">Selecione</option><option value="Não">Não</option><option value="Sim">Sim</option></select></div>
-                            </div><div class="block"><div class="vertical divlabel"><label>Qual o seu nível de conhecimento sobre análise e dados?</label></div><div class="vertical divinput"><select name="cmp8" class="type_LVU ">
+                            </div><div class="block"><div class="vertical divlabel"><label class="">Qual o seu nível de conhecimento sobre análise e dados?</label></div><div class="vertical divinput"><select name="cmp8" class="type_LVU">
                                                 <option value="">Selecione</option><option value="Avançado">Avançado</option><option value="Iniciante">Iniciante</option><option value="Intermediário">Intermediário</option></select></div>
-                            </div><div class="block"><div class="vertical divlabel"><label>Nome</label></div><div class="vertical divinput"><input type="text" name="cmp2"  placeholder="" format=""  class="type_VC  " maxlength="80" />
+                            </div><div class="block"><div class="vertical divlabel"><label class="">Nome</label></div><div class="vertical divinput"><input type="text" name="cmp2" placeholder="" format="" class="type_VC" maxlength="80">
                                             </div>
                             </div><div class="block">
                             <div class="vertical class1 submit submit-button-td">
-                                <input type="submit" value="Cadastre-se" original-value="Cadastre-se" class="dinSubmit" />
+                                <input type="submit" value="Cadastre-se" original-value="Cadastre-se" class="dinSubmit">
                                 <div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div>
                             </div>
                         </div>
@@ -1285,7 +1380,7 @@
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-md-3 card">
-                <a href="https://metricasboss.com.br" target="_blank"><img src="assets/images/analytics-summit-logo-metricas-boss-1-240x76.png" alt="Metricas Boss"></a>
+                <a href="https://metricasboss.com.br" target="_blank"><img src="assets/images/analytics-summit-logo-metricas-boss.png" alt="Metricas Boss"></a>
             </div>
             
         </div>
@@ -1339,19 +1434,19 @@
         </div>
         <div class="row justify-content-center mt-4 apoiadores">
             <div class="col-md-3 col-sm-6 card">
-                <img src="assets/images/apoiadores/analytics-summit-apoiadores-Ecommerce-Brasil.jpg" alt="Ecommerce Brasil">
+                <a href="https://www.ecommercebrasil.com.br" target="_blank"><img src="assets/images/apoiadores/analytics-summit-apoiadores-Ecommerce-Brasil.jpg" alt="Ecommerce Brasil"></a>
             </div>
             <div class="col-md-3 col-sm-6 card">
-                <img src="assets/images/apoiadores/analytics-summit-apoiadores-Mundo-do-Marketing.jpg" alt="Mundo do Marketing">
+                <a href="https://www.mundodomarketing.com.br" target="_blank"><img src="assets/images/apoiadores/analytics-summit-apoiadores-Mundo-do-Marketing.jpg" alt="Mundo do Marketing"></a>
             </div>
             <div class="col-md-3 col-sm-6 card">
-                <img src="assets/images/apoiadores/analytics-summit-apoiadores-Ecommerce-de-Sucesso.jpg" alt="Ecommerce de Sucesso">
+                <a href="https://ecommercedesucesso.com.br" target="_blank"><img src="assets/images/apoiadores/analytics-summit-apoiadores-Ecommerce-de-Sucesso.jpg" alt="Ecommerce de Sucesso"></a>
             </div>
             <div class="col-md-3 col-sm-6 card">
-                <img src="assets/images/apoiadores/analytics-summit-apoiadores-Punk-Metrics.jpg" alt="Punk Metrics">
+                <a href="https://punkmetrics.com" target="_blank"><img src="assets/images/apoiadores/analytics-summit-apoiadores-Punk-Metrics.jpg" alt="Punk Metrics"></a>
             </div>
             <div class="col-md-3 col-sm-6 card">
-                <img src="assets/images/apoiadores/analytics-summit-apoiadores-Product-Arena.jpg" alt="Product Arena">
+                <a href="https://productarena.io" target="_blank"><img src="assets/images/apoiadores/analytics-summit-apoiadores-Product-Arena.jpg" alt="Product Arena"></a>
             </div>
         </div>
     </div>
@@ -1383,7 +1478,7 @@
             <div class="col-12 col-lg-8">
                 <h3 class="mbr-section-title mb-4 mbr-fonts-style display-5"><strong>Quero ser patrocinador</strong></h3>
                 <p class="mbr-text mb-5 mbr-fonts-style display-7">Clique aqui para ter mais informações</p>
-                <div class="mbr-section-btn"><a class="btn btn-secondary display-4" href="https://mobiri.se">Quero ser patrocinador</a></div>
+                <div class="mbr-section-btn"><a class="btn btn-secondary display-4" href="mailto:gustavo@metricasboss.com.br">Quero ser patrocinador</a></div>
             </div>
         </div>
     </div>
@@ -1404,96 +1499,152 @@
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse1_20" aria-expanded="false" aria-controls="collapse1">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How to create more items in this list?</strong>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Quanto custa para participar do Analytics Summit</strong>
                                 </h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
                         <div id="collapse1_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_20">
                             <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text display-4">The number of items is limited in this block. Open
-                                    the Block parameters to change the amount of items.</p>
+                                <p class="mbr-fonts-style panel-text display-4">Nada, ele é 100% gratuito! Basta se inscrever no nosso site e você receberá as informações por email.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3">
+                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse2_20" aria-expanded="false" aria-controls="collapse2">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>What is Mobirise Kit?
-                                    </strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Como faço para me inscrever?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
                         <div id="collapse2_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_20">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4">
-                                    Mobirise Kit is a service that provides the access to all current and new
-                                    themes/extensions developed by Mobirise. New themes/extensions are released every
-                                    month and will be available in your account during your plan period, without any
-                                    additional charge.</p>
+                                    Basta se cadastrar aqui no site! Todas as informações serão enviadas no seu email.</p>
                             </div>
                         </div>
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse3_20" aria-expanded="false" aria-controls="collapse3">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Can I create sites for commerical
-                                        projects?</strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Aonde será o Analytics Summit?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
                         <div id="collapse3_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_20">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4">
-                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>
+                                    O evento será no nosso canal do <a href="https://www.youtube.com/channel/UCaFLFv1rvT4tr9-7VZUPcDA" target="_blank" style="text-decoration: underline; text-transform: none; text-">YouTube</a>.</p>
                             </div>
                         </div>
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse4_20" aria-expanded="false" aria-controls="collapse4">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>What is Code Editor?</strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>O que é o Analytics Summit?
+                                    </strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
                         <div id="collapse4_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_20">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4">
-                                    This extension allows editing the code of block in the app. Also, it's possible to
-                                    add code to the head and body parts of pages.</p>
+                                    Com 20 palestras e duração de 04 dias, o Analytics Summit é uma iniciativa que visa disseminar as melhores práticas e as estratégias mais efetivas quando pensamos em web analytics.  Para isso, reunimos os melhores especialistas do mercado em uma jornada repleta de dicas e insights, proporcionando uma imersão total no incrível mundo do web analytics, indo desde seus fundamentos até as estratégias mais avançadas.</p>
                             </div>
                         </div>
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse5_20" aria-expanded="false" aria-controls="collapse5">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>What is Mobirise Kit?
-                                    </strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Quando acontece o Analytics Summit?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
                         <div id="collapse5_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_20">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4">
-                                    Mobirise Kit is a service that provides the access to all current and new
-                                    themes/extensions developed by Mobirise. New themes/extensions are released every
-                                    month and will be available in your account during your plan period, without any
-                                    additional charge.</p>
+                                    O evento acontecerá entre os dias 19 e 22 de Julho.</p>
                             </div>
                         </div>
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
                             <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse6_20" aria-expanded="false" aria-controls="collapse6">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Can I create sites for commerical
-                                        projects?</strong></h6>
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>O evento vai ficar gravado?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
                         <div id="collapse6_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_20">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4">
-                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>
+                                    O evento ficará gravado dentro da nossa comunidade exclusiva do Metricas Boss Prime.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse7_20" aria-expanded="false" aria-controls="collapse7">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Qual será o horário das palestras</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse7_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_20">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Teremos palestras na parte da manhã (9h-12h) e depois de noite (19h-22h).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse8_20" aria-expanded="false" aria-controls="collapse8">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Qual é a proposta de valor do Analytics Summit?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse8_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_20">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    A Métricas Boss tem como missão construir uma comunidade de analytics no Brasil, promovendo uma contínua qualificação dos profissionais e contribuindo para o desenvolvimento do mercado brasileiro. Para isso, estamos nos posicionando como agentes ativos  na capacitação de profissionais cada vez mais atentos aos dados do seu negócios, desenvolvendo a habilidade de transformar informações soltas em VALOR, possibilitando a melhorias de processos dentro das empresas e a tomada de decisões de forma mais assertiva.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse9_20" aria-expanded="false" aria-controls="collapse9">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Qual problema o Analytics Summit busca resolver? </strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse9_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_20">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Atualmente, vemos dois cenários no mercado. O primeiro com profissionais que não entendem o que os dados querem dizer, sempre seguindo a sua intuição (ou a intuição do HIPPO da empresa), não conseguindo otimizar os seus processos e perdendo muitas oportunidades. Do outro lado, vemos profissionais que já aderiram a "modinha"dos dados, acreditando que eles serão a solução para todos os problemas.
+                                    <br /><br />
+                                    Nós da Métricas Boss queremos mostrar qual a lógica certa para tratarmos os dados, desde o momento da captura (afinal, eles PRECISAM ser confiáveis) até o momento da análise. Os dados nos dão matéria prima, mas nós temos que ter um olhar pró-ativo em cima deles e sempre nos questionar sobre tudo. Eles estão aí para incentivar a nossa curiosidade e, sim, criatividade! Mas não vão resolver os nossos problemas, isso somos nós. Por isso, esse profissional precisa ter como norte a transformação daquela informação em valor para melhorar a tomada de decisão dos negócios.
+                                    <br /><br />
+                                    Dessa forma, vamos construir uma comunidade de profissionais que não são data-driven, mas sim data-oriented.
+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse10_20" aria-expanded="false" aria-controls="collapse10">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Para quem é o Analytics Summit?
+                                    </strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse10_20" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_20">
+                            <div class="panel-body">
+                                    <ul class="mbr-fonts-style panel-text display-4">
+                                    <li>Profissionais iniciantes que querem começar a estudar sobre analytics e entender como planejar a sua carreira para crescer nessa área;</li>
+                                    <li>Profissionais de analytics com conhecimento intermediário ou avançado, que querem aprimorar mais suas habilidades com os cursos, mas especialmente com as palestras e entrevistas;</li>
+                                    <li>Profissionais que desejam formar uma rede de network da área de analytics e ter acesso a um fórum de dúvidas confiável e com rapidez nas respostas;</li>
+                                    <li>Gestores que desejam oferecer um treinamento de qualidade e incentivando a contínua especialização dos funcionários;</li>
+                                    <li>Profissionais de outras áreas, como marketing, design, mídias sociais, branding, CRM, produto etc. que desejam entender como trazer a lógica de análise de dados para a sua rotina de trabalho, para se tornarem mais capacitados e melhorarem a sua entrega.</li>
+                                    </ul>
                             </div>
                         </div>
                     </div>
@@ -1533,9 +1684,11 @@
 
 <script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/countdown/jquery.countdown.min.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
   
-  
 <input name="cookieData" type="hidden" data-cookie-customDialogSelector='null' data-cookie-colorText='#424a4d' data-cookie-colorBg='rgba(234, 239, 241, 0.99)' data-cookie-textButton='Agree' data-cookie-colorButton='' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='true' data-cookie-text="We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.">
    <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
     <input name="animation" type="hidden">
+
+    <script type="text/javascript" src="assets/theme/js/form.js"></script>
+  <script type="text/javascript" src="assets/theme/js/counter.js"></script>
   </body>
 </html>
